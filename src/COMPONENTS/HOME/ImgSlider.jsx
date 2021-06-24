@@ -12,7 +12,7 @@ const ImgSlider = () => {
         speed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplayspeed: 9000,
     };
     return (

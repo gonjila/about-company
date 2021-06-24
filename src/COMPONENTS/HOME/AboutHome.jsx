@@ -26,7 +26,7 @@ export default AboutHome;
 const Container = styled.div`
     color: white;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

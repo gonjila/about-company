@@ -19,6 +19,7 @@ export default Home;
 
 const Container = styled.div`
     color: white;
+    width: 100%;
     /* overflow: hidden; */
     background-color: black;
     position: relative;

@@ -1,10 +1,13 @@
 import styled from 'styled-components';
-import Home from './COMPONENTS/Home.jsx';
+
+import Home from './COMPONENTS/HOME';
+import Services from './COMPONENTS/SERVICES';
 
 function App() {
     return (
         <Container>
             <Home />
+            <Services />
         </Container>
     );
 }
