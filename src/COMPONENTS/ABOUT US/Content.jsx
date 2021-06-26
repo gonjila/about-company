@@ -36,4 +36,8 @@ const Container = styled.div`
 
 const Text = styled.div`
     width: 50%;
+
+    p {
+        font-size: 1.1rem;
+    }
 `;

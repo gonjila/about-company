@@ -25,7 +25,7 @@ const Portfolio = () => {
 export default Portfolio;
 
 const Component = styled.div`
-    height: 73vh;
+    min-height: 70vh;
     /* width: 100%; */
     padding: 0px 5vw;
     display: flex;

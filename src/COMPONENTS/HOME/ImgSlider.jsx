@@ -11,7 +11,7 @@ const ImgSlider = () => {
         lazyLoad: true,
         infinite: true,
         autoplay: false,
-        speed: 3000,
+        speed: 500,
         pauseOnDotsHover: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -79,7 +79,7 @@ const Component = styled.div`
         right: 50px;
 
         &:before {
-            content: url('images/down-arrow.svg');
+            content: url('images/blue-right-arrow.png');
             background-color: white;
         }
     }

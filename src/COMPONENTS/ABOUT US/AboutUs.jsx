@@ -15,8 +15,9 @@ const AboutUs = () => {
 export default AboutUs;
 
 const Container = styled.div`
-    height: 70vh;
+    min-height: 70vh;
     padding: 0px 5vw;
+    margin: 50px 0px 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
