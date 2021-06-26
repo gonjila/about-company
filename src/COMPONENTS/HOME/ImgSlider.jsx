@@ -8,12 +8,13 @@ const ImgSlider = () => {
     const settings = {
         dots: true,
         arrow: true,
+        lazyLoad: true,
         infinite: true,
-        speed: 2000,
+        autoplay: false,
+        speed: 3000,
+        pauseOnDotsHover: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
-        autoplayspeed: 9000,
     };
     return (
         <Component className='sliderContainer'>
@@ -50,8 +51,11 @@ const Component = styled.div`
         z-index: 5;
 
         &:before {
-            padding: 20px;
-            font-size: 90px;
+            padding: 35px;
+            border-radius: 10px;
+            /* font-size: 70px; */
+            /* width: 50px; */
+            /* border: 5px solid red; */
         }
     }
 
@@ -60,14 +64,24 @@ const Component = styled.div`
         position: absolute;
         right: 180px;
         left: auto;
+
+        &:before {
+            content: url('images/left-arrow.svg');
+            background-color: rgba(255, 255, 255, 0.3);
+        }
     }
 
     //marjvena isari
     .slick-next {
         position: absolute;
-        height: auto;
-        width: auto;
+        /* height: auto;
+        width: auto; */
         right: 50px;
+
+        &:before {
+            content: url('images/down-arrow.svg');
+            background-color: white;
+        }
     }
 
     .slick-dots {

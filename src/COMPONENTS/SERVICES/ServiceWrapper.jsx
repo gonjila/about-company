@@ -40,12 +40,13 @@ export default ServiceWrapper;
 
 const Container = styled.div`
     display: flex;
+    justify-content: space-between;
     position: relative;
 
     div {
         width: 320px;
         height: 320px;
-        margin: 0px 15px;
+        /* margin: 0px 15px; */
         padding: 0px 20px;
         border-radius: 10px;
         background-color: #e7e7e7;
@@ -66,7 +67,8 @@ const Container = styled.div`
         width: 40px;
         height: 40px;
         margin-bottom: 15px;
-        background-color: white;
+        border-radius: 15px;
+        background-color: #e7e7e7;
         padding: 10px;
         z-index: 5;
     }
