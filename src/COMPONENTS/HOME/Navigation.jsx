@@ -22,6 +22,7 @@ const NavigationBar = styled.nav`
     padding: 0px 10vw;
     height: 15vh;
     width: calc(100vw - 20vw - 17px);
+    /* width: calc(100vw - 20vw); */
     display: flex;
     justify-content: space-between;
     align-items: center;

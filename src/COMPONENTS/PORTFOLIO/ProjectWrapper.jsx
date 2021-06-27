@@ -41,9 +41,12 @@ export default ProjectWrapper;
 const Container = styled.div`
     display: flex;
     justify-content: flex-start;
-    overflow-x: scroll;
+    overflow-x: scroll !important;
     overflow-y: hidden;
-    scroll-behavior: smooth;
+
+    /* &::-webkit-scrollbar {
+        display: block;
+    } */
 
     section {
         width: 570px;

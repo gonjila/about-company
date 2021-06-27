@@ -1,31 +1,38 @@
+import { useState } from 'react';
 import styled from 'styled-components';
 
 import Form from './Form';
 import Map from './Map';
 
 const Contact = () => {
-    const onbuttonClick = () => {
-        alert('haloo everyone');
+    const [mapActivated, setMapActivated] = useState(true);
+
+    const onFormClick = () => {
+        setMapActivated(false);
+    };
+
+    const onMapClick = () => {
+        setMapActivated(true);
     };
 
     return (
         <Container id='contact'>
             <Title>
-                <div className='form-div'>
-                    <button type='button' onClick={onbuttonClick}>
+                <div className={!mapActivated ? 'form-div' : ''}>
+                    <button type='button' onClick={onFormClick}>
                         CONTACT US
                     </button>
                 </div>
-                <div className='map-div'>
-                    <button type='button' onClick={onbuttonClick}>
+                <div className={mapActivated ? 'map-div' : ''}>
+                    <button type='button' onClick={onMapClick}>
                         MAP
                     </button>
                 </div>
             </Title>
 
             <div className='content'>
-                <Form />
-                <Map />
+                <Form mapActivated={mapActivated} />
+                <Map mapActivated={mapActivated} />
             </div>
         </Container>
     );
@@ -65,6 +72,13 @@ const Title = styled.div`
     }
 
     .map-div {
+        border-bottom: 3px solid blue;
+        button {
+            color: blue;
+        }
+    }
+
+    .form-div {
         border-bottom: 3px solid blue;
         button {
             color: blue;
