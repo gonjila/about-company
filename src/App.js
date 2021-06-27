@@ -7,6 +7,7 @@ import Services from './COMPONENTS/SERVICES';
 import Portfolio from './COMPONENTS/PORTFOLIO';
 import AboutUs from './COMPONENTS/ABOUT US';
 import OurTeam from './COMPONENTS/OUR TEAM';
+import Partners from './COMPONENTS/PARTNERS';
 
 const AboutProject = React.lazy(() => import('./COMPONENTS/PORTFOLIO/AboutProject.jsx'));
 
@@ -25,6 +26,8 @@ function App() {
                         <AboutUs />
 
                         <OurTeam />
+
+                        <Partners />
                     </Route>
 
                     <Route exact path='/about-project'>

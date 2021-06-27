@@ -9,10 +9,10 @@ const Team = () => {
                 <div className='title'>OUR TEAM</div>
                 <div className='arrows'>
                     <button type='button'>
-                        <img alt='left arrow' src='images/left-arrow.svg' />
+                        <img alt='left arrow' src='images/black-left-arrow.png' />
                     </button>
                     <button type='button'>
-                        <img alt='right arrow' src='images/right-arrow.svg' />
+                        <img alt='right arrow' src='images/black-right-arrow.png' />
                     </button>
                 </div>
             </Title>

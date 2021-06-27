@@ -51,11 +51,13 @@ const Component = styled.div`
         z-index: 5;
 
         &:before {
+            width: 16px;
+            height: 26px;
+            opacity: 1;
             padding: 35px;
             border-radius: 10px;
-            /* font-size: 70px; */
-            /* width: 50px; */
-            /* border: 5px solid red; */
+            /* font-size: 30px; */
+            background: #ffffff 0% 0% no-repeat padding-box;
         }
     }
 
@@ -66,7 +68,7 @@ const Component = styled.div`
         left: auto;
 
         &:before {
-            content: url('images/left-arrow.svg');
+            content: url('images/left-white-arrow.png');
             background-color: rgba(255, 255, 255, 0.3);
         }
     }
@@ -79,7 +81,7 @@ const Component = styled.div`
         right: 50px;
 
         &:before {
-            content: url('images/blue-right-arrow.png');
+            content: url('images/right-blue-arrow.png');
             background-color: white;
         }
     }

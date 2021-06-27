@@ -11,6 +11,7 @@ const Home = () => {
             <Navigation />
             <AboutHome />
             <ImgSlider />
+            <ScrollImage alt='scrolling icon' src='images/scroll-icon.png' />
         </Container>
     );
 };
@@ -23,4 +24,13 @@ const Container = styled.div`
     /* overflow: hidden; */
     background-color: black;
     position: relative;
+`;
+
+const ScrollImage = styled.img`
+    position: absolute;
+    top: 85%;
+    left: 40px;
+    width: 41px;
+    height: 53px;
+    z-index: 15;
 `;
