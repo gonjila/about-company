@@ -11,6 +11,7 @@ const AboutImgSlider = () => {
         lazyLoad: true,
         infinite: true,
         autoplay: true,
+        autoplaySpeed: 6000,
         speed: 500,
         pauseOnDotsHover: true,
         slidesToShow: 1,

@@ -8,9 +8,9 @@ const Members = () => {
                 <p className='name'>Giorgi giorgadze</p>
                 <p className='profesion'>Graphic Design</p>
                 <div className='social'>
-                    <img alt='fb icon' src='images/fb-icon.svg' />
-                    <img alt='linkedIn icon' src='images/linkedIn-icon.svg' />
-                    <img alt='tweeter icon' src='images/tweeter-icon.svg' />
+                    <img alt='fb icon' src='images/fb-black-icon.svg' />
+                    <img alt='linkedIn icon' src='images/linkedIn-black-icon.svg' />
+                    <img alt='tweeter icon' src='images/tweeter-black-icon.svg' />
                 </div>
             </div>
 
@@ -19,9 +19,9 @@ const Members = () => {
                 <p className='name'>EKA SHANIDZE</p>
                 <p className='profesion'>CEO</p>
                 <div className='social'>
-                    <img alt='fb icon' src='images/fb-icon.svg' />
-                    <img alt='linkedIn icon' src='images/linkedIn-icon.svg' />
-                    <img alt='tweeter icon' src='images/tweeter-icon.svg' />
+                    <img alt='fb icon' src='images/fb-black-icon.svg' />
+                    <img alt='linkedIn icon' src='images/linkedIn-black-icon.svg' />
+                    <img alt='tweeter icon' src='images/tweeter-black-icon.svg' />
                 </div>
             </div>
 
@@ -30,9 +30,9 @@ const Members = () => {
                 <p className='name'>Giorgi giorgadze</p>
                 <p className='profesion'>Web Developer</p>
                 <div className='social'>
-                    <img alt='fb icon' src='images/fb-icon.svg' />
-                    <img alt='linkedIn icon' src='images/linkedIn-icon.svg' />
-                    <img alt='tweeter icon' src='images/tweeter-icon.svg' />
+                    <img alt='fb icon' src='images/fb-black-icon.svg' />
+                    <img alt='linkedIn icon' src='images/linkedIn-black-icon.svg' />
+                    <img alt='tweeter icon' src='images/tweeter-black-icon.svg' />
                 </div>
             </div>
         </Container>
