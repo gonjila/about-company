@@ -6,7 +6,7 @@ const AboutProject = () => {
         <Container>
             <InnerContainer>
                 <div className='button-wrapper'>
-                    <Link exact to='/'>
+                    <Link exact={true.toString()} to='/'>
                         <img alt='close mark' src='images/close.svg' />
                     </Link>
                 </div>

@@ -9,6 +9,7 @@ import AboutUs from './COMPONENTS/ABOUT US';
 import OurTeam from './COMPONENTS/OUR TEAM';
 import Partners from './COMPONENTS/PARTNERS';
 import Contact from './COMPONENTS/CONTACT';
+import ToTop from './COMPONENTS/ToTop';
 import Footer from './COMPONENTS/FOOTER';
 
 const AboutProject = React.lazy(() => import('./COMPONENTS/PORTFOLIO/AboutProject.jsx'));
@@ -18,7 +19,7 @@ function App() {
         <Container>
             <Suspense fallback={<div>page is loading...</div>}>
                 <Switch>
-                    <Route exact path='/'>
+                    <Route exact={true} path='/'>
                         <Home />
 
                         <Services />
@@ -33,10 +34,12 @@ function App() {
 
                         <Contact />
 
+                        <ToTop />
+
                         <Footer />
                     </Route>
 
-                    <Route exact path='/about-project'>
+                    <Route exact={true} path='/about-project'>
                         <AboutProject />
                     </Route>
                 </Switch>

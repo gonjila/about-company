@@ -5,7 +5,7 @@ import ServiceWrapper from './ServiceWrapper';
 
 const Services = () => {
     return (
-        <Container>
+        <Container id='services'>
             <Title>SERVICES</Title>
             <ServiceWrapper />
         </Container>

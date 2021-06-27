@@ -5,13 +5,13 @@ const Form = () => {
         <Container>
             <div>
                 <input type='text' placeholder='Your Name' />
-                <input type='mail' placeholder='Your Email *' />
+                <input type='mail' placeholder='Your Email *' required />
             </div>
             <div>
-                <input type='tel' placeholder='Your Phone *' />
+                <input type='tel' placeholder='Your Phone *' required />
                 <input type='text' placeholder='Subject' />
             </div>
-            <input className='message' type='text' placeholder='Your Message *' />
+            <input className='message' type='text' placeholder='Your Message *' required />
             <button type='submit'>Send Message</button>
         </Container>
     );
@@ -39,11 +39,17 @@ const Container = styled.form`
     }
 
     input {
+        font-size: 1.2rem;
         width: 570px;
         height: 180px;
         margin-bottom: 30px;
         border: 1px solid #bdc3c7;
         border-radius: 5px;
+
+        ::placeholder {
+            /* vertical-align: text-top; */
+            /* text-align: center; */
+        }
     }
 
     button {

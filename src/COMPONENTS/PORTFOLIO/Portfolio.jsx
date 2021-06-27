@@ -5,7 +5,7 @@ import ProjectWrapper from './ProjectWrapper';
 
 const Portfolio = () => {
     return (
-        <Component>
+        <Component id='projects'>
             <Title>
                 <div className='title'>PORTFOLIO</div>
                 <div className='arrows'>

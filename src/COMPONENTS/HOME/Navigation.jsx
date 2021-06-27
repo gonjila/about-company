@@ -6,11 +6,11 @@ const Navigation = () => {
         <NavigationBar>
             <Logo>LOGO</Logo>
             <ClassComponents>
-                <a href='/'>ABOUT</a>
-                <a href='/'>SERVICE</a>
-                <a href='/'>PROJECTS</a>
-                <a href='/'>TEAM</a>
-                <a href='/'>CONTACT</a>
+                <a href='#about'>ABOUT</a>
+                <a href='#services'>SERVICE</a>
+                <a href='#projects'>PROJECTS</a>
+                <a href='#team'>TEAM</a>
+                <a href='#contact'>CONTACT</a>
             </ClassComponents>
         </NavigationBar>
     );

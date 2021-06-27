@@ -4,7 +4,7 @@ import Members from './Members';
 
 const Team = () => {
     return (
-        <Container>
+        <Container id='team'>
             <Title>
                 <div className='title'>OUR TEAM</div>
                 <div className='arrows'>

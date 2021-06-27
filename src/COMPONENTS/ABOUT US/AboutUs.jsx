@@ -5,7 +5,7 @@ import Content from './Content';
 
 const AboutUs = () => {
     return (
-        <Container>
+        <Container id='about'>
             <Title>ABOUT US</Title>
             <Content />
         </Container>

@@ -9,7 +9,7 @@ const Contact = () => {
     };
 
     return (
-        <Container>
+        <Container id='contact'>
             <Title>
                 <div className='form-div'>
                     <button type='button' onClick={onbuttonClick}>
@@ -36,7 +36,7 @@ export default Contact;
 const Container = styled.div`
     min-height: 80vh;
     padding: 0px 5vw;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
     .content {
         width: 100%;
