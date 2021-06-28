@@ -38,14 +38,15 @@ const Container = styled.div`
 
     .privacy {
         display: flex;
+        font: normal normal normal 16px/24px Segoe UI;
 
         div {
             &:first-child {
-                width: 94px;
+                /* width: 94px; */
                 height: 21px;
             }
             &:last-child {
-                width: 90px;
+                /* width: 90px; */
                 height: 21px;
             }
             &:not(:last-child) {
@@ -57,6 +58,7 @@ const Container = styled.div`
     .Copyright {
         width: 224px;
         height: 21px;
+        font: normal normal normal 16px/24px Segoe UI;
     }
 
     .icons {

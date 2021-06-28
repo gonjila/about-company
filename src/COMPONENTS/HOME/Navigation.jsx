@@ -31,11 +31,11 @@ const NavigationBar = styled.nav`
 `;
 
 const Logo = styled.div`
-    font-size: 2.5rem;
+    font: normal normal 600 40px/60px Montserrat;
 `;
 
 const ClassComponents = styled.ul`
-    font-size: 1.2rem;
+    font: normal normal normal 18px/24px Segoe UI;
     display: flex;
 
     a {

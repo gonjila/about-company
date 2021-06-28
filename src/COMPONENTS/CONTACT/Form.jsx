@@ -30,7 +30,9 @@ const Container = styled.form`
 
     div {
         input {
-            width: 270px !important;
+            /* width: 270px !important; */
+            max-width: 270px;
+            min-width: 260px;
             height: 60px;
             margin-bottom: 30px;
 
@@ -41,8 +43,9 @@ const Container = styled.form`
     }
 
     input {
-        font-size: 16px;
-        width: 570px;
+        font: normal normal normal 16px/24px Segoe UI;
+        min-width: 550px;
+        max-width: 570px;
         height: 180px;
         padding-left: 15px;
         margin-bottom: 30px;
@@ -57,6 +60,7 @@ const Container = styled.form`
     }
 
     button {
+        font: normal normal normal 16px/24px Segoe UI;
         width: 570px;
         height: 60px;
         color: #ffffff;

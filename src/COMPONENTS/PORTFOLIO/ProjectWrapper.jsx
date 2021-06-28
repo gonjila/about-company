@@ -4,14 +4,14 @@ import styled from 'styled-components';
 
 const ProjectWrapper = () => {
     return (
-        <Container>
+        <Container className='projects'>
             <section>
                 <Link exact to='/about-project'>
                     <div className='project-name'>
                         Project Name
                         <div className='category'>Category "..."</div>
                     </div>
-                    <img alt='' src='images/portfolio-1.png' />
+                    <img alt='project 1' src='images/portfolio-1.png' />
                 </Link>
             </section>
             <section>
@@ -20,7 +20,7 @@ const ProjectWrapper = () => {
                         Project Name
                         <div className='category'>Category "..."</div>
                     </div>
-                    <img alt='' src='images/portfolio-2.png' />
+                    <img alt='project 2' src='images/portfolio-2.png' />
                 </Link>
             </section>
             <section>
@@ -29,7 +29,7 @@ const ProjectWrapper = () => {
                         Project Name
                         <div className='category'>Category "..."</div>
                     </div>
-                    <img alt='' src='images/portfolio-3.png' />
+                    <img alt='project 3' src='images/portfolio-3.png' />
                 </Link>
             </section>
         </Container>
@@ -41,12 +41,8 @@ export default ProjectWrapper;
 const Container = styled.div`
     display: flex;
     justify-content: flex-start;
-    overflow-x: scroll !important;
+    /* overflow-x: scroll !important; */
     overflow-y: hidden;
-
-    /* &::-webkit-scrollbar {
-        display: block;
-    } */
 
     section {
         width: 570px;
@@ -75,14 +71,14 @@ const Container = styled.div`
 
     .project-name {
         color: white;
-        font-size: 1.5rem;
+        font: normal normal 600 28px/42px Montserrat;
         left: 30px;
         bottom: 30px;
         position: absolute;
 
         .category {
             display: none;
-            font-size: 1.1rem;
+            font: normal normal normal 16px/24px Segoe UI;
         }
     }
 `;

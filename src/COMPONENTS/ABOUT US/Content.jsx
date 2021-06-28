@@ -38,6 +38,6 @@ const Text = styled.div`
     width: 50%;
 
     p {
-        font-size: 1.1rem;
+        font: normal normal normal 16px/24px Segoe UI;
     }
 `;
