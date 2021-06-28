@@ -46,7 +46,6 @@ const Container = styled.div`
     div {
         width: 320px;
         height: 320px;
-        /* margin: 0px 15px; */
         padding: 0px 20px;
         border-radius: 10px;
         background-color: #e7e7e7;
@@ -55,6 +54,15 @@ const Container = styled.div`
         justify-content: flex-end;
         align-items: center;
         z-index: 5;
+
+        h3 {
+            font: normal normal 600 24px/36px Montserrat;
+            margin: 0px 0px 5px;
+        }
+        p {
+            font: normal normal normal 16px/24px Segoe UI;
+            margin: 5px 0px 10px;
+        }
     }
 
     .background {

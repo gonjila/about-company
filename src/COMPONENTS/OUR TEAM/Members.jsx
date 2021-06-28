@@ -110,11 +110,12 @@ const Container = styled.div`
         }
 
         .name {
-            font-size: 1.3rem;
-            margin: 25px 0px 15px 0px;
+            font: normal normal 600 20px/30px Montserrat;
+            margin: 25px 0px 0px 0px;
         }
         .profesion {
-            margin: 10px 0px;
+            font: normal normal normal 16px/24px Segoe UI;
+            margin: 10px 0px 25px;
         }
         .social {
             width: 300px;

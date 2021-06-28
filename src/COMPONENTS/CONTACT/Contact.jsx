@@ -53,7 +53,7 @@ const Container = styled.div`
 
 const Title = styled.div`
     width: 100%;
-    margin: 30px 0px;
+    margin: 30px 0px 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +65,7 @@ const Title = styled.div`
         justify-content: center;
 
         button {
-            font-size: 2.2rem;
+            font: normal normal 600 32px/48px Montserrat;
             border: transparent;
             background-color: inherit;
         }

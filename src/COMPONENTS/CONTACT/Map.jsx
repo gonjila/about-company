@@ -38,8 +38,7 @@ const Container = styled.div`
         div {
             width: 229px;
             height: 30px;
-            font-size: 20px;
-            font-weight: 600;
+            font: normal normal 600 20px/30px Montserrat;
             text-align: left;
         }
         hr {

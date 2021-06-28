@@ -24,7 +24,7 @@ const Container = styled.div`
 
 const Title = styled.div`
     width: 100%;
-    font-size: 2.2rem;
+    font: normal normal 600 32px/48px Montserrat;
     margin: 30px 0px;
     display: flex;
     align-items: center;

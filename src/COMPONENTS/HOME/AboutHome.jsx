@@ -36,14 +36,14 @@ const Container = styled.div`
 `;
 
 const Title = styled.div`
-    font-size: 2.3rem;
+    font: normal normal 600 40px/60px Montserrat;
+    letter-spacing: 1.5px;
     margin-bottom: 20px;
-    font-weight: bold;
 `;
 
 const Text = styled.div`
     margin-bottom: 20px;
-    font-size: 1.2rem;
+    font: normal normal normal 16px/24px Segoe UI;
     text-align: center;
     width: 700px;
 `;
@@ -51,7 +51,7 @@ const Text = styled.div`
 const Buttons = styled.div`
     button {
         color: white;
-        font-size: 1.07rem;
+        font: normal normal 600 16px/24px Montserrat;
         border-radius: 5px;
         margin: 10px;
         padding: 15px 25px;

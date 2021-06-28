@@ -24,7 +24,7 @@ const Container = styled.div`
 `;
 
 const Title = styled.div`
-    font-size: 2.2rem;
+    font: normal normal 600 32px/48px Montserrat;
     margin: 20px 0px;
     display: flex;
     justify-content: center;
